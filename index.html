@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+               \||/                                              \||/
+               \||/                                              \||/
+             .<><><>.               Hi Stranger!               .<><><>.
+            .<><><><>.        Welcome to my source code!      .<><><><>.   
+            '<><><><>'                                        '<><><><>'
+             '<><><>'                                          '<><><>'
+     -->
+    <!-- Portfolio/Personal website for and made by Annie Lin -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Annie Lin">
+    <meta name="robots" content="NOODP">
+    <meta content='harvard, annie, lin, annie lin, philadelphia' name='keywords'>
+    <meta name="description" content="Hello, world! Portfolio/Personal website for and made by Annie Lin, Harvard student hailing from Philadelphia!"><meta name="description" content="Hello, world! Portfolio/Personal website for and made by Annie Lin, Harvard student hailing from Philadelphia!">
+    <title>Annie Lin</title>
+    <link rel="shortcut icon" href="/img/shortcut.png" type="image/x-icon" />
+    <link rel="icon" href="/img/shortcut.png" type="image/x-icon" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- For Page Scrolling -->
+    <link rel="stylesheet" type="text/css" href="fullPage.js-master/jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="fullPage.js-master/vendors/jquery.easings.min.js"></script>   
+    <script type="text/javascript" src="fullPage.js-master/vendors/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="fullPage.js-master/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                anchors: ['home', 'about', 'resume', 'projects'],
+                scrollOverflow: true,
+                css3: true,
+                easing: 'easeOutBack',
+                scrollingSpeed: 1000,
+                continuousVertical: true,
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if(e.style.display == 'block')
+            e.style.display = 'none';
+            else
+            e.style.display = 'block';
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Font-Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Detect Outdated Browsers: http://outdatedbrowser.com -->
+    <link rel="stylesheet" href="../outdatedbrowser/outdatedbrowser.min.css">    
+
+    <!-- Google Analytics Code -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-51636012-1', 'anniel.in');
+      ga('send', 'pageview');
+    
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Mobile -->
+    <nav class="navbar navbar-default navbar-fixed-top head-foot hidden-sm hidden-md hidden-lg">
+        <div class="container text-center" style="font-size:13px;">
+            <br><br><br>
+            <h1>HI, I'M <a href="works/AnnieLinResume.pdf" target="_blank">ANNIE LIN</a></h1>
+            <a href="mailto:hello@anniel.in"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <a href="http://www.linkedin.com/in/theannielin/" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <a href="http://github.com/theannielin" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <br>
+            <a href="http://www.instagram.com/theannielin" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <a href="https://twitter.com/theannielin" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <a href="http://www.youtube.com/channel/UC4xmxjVcO3qGnQ7Y_hZlDnw" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+            </a><br><br>
+            <a class="btn btn-default btn-sm" href="#coffee" data-toggle="modal"> 
+                <i class="fa fa-coffee"></i> 
+                Coffee Appointments
+            </a>
+            <br><br>
+            <p style="font-family:caviardreams; color: #666;">TO VIEW MORE,<br> 
+                PLEASE USE A WIDER SCREEN/<br>NON-MOBILE DEVICE</p>
+        </div>
+    </nav> <!-- /.mobile-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top head-foot hidden-xs">
+        <div class="container text-center">
+            <br>
+            <div style="font-size:30px; font-family: passiontea;">
+                <a class="page-scroll" href="#about">about</a>| 
+                <a class="page-scroll" href="#projects">projects</a>   
+                <a class="page-scroll" href="#home" id="cog">
+                    <i class="fa fa-cog fa-spin fa-2x"></i>
+                </a>
+                <a class="page-scroll" href="#resume">resume</a> |  
+                <a href="mailto:hello@anniel.in">e-mail</a> 
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- empty column-->
+                </div><!-- /.column-->
+                <div class="col-md-8">
+                    <hr>
+                </div><!-- /.column-->
+                <div class="col-md-2">
+                    <!-- empty column-->
+                </div><!-- /.column-->
+            </div><!-- /.row-->
+        </div>
+    </nav> <!-- /.header -->
+
+
+    <div id="fullpage" class="hidden-xs">
+        
+        <!-- Home -->
+        <div class="section">
+            <div class="container">
+                <img class="img-responsive" src= "img/table.png" width="500" height="475" style="margin: 0 auto;" usemap="#table" alt="home">
+                <map name="table">
+                    <area shape="rect" coords="250,200,325,230" href="#coffee" data-toggle="modal" alt="hi">
+                    <area shape="rect" coords="115,140,190,175" href="#resume" alt="resume">
+                    <area shape="rect" coords="200,80,275,125" href="#projects" alt="projects">
+                    <area shape="rect" coords="340,125,400,160" href="#about" alt="about">
+                </map>
+            </div><!-- /.container-->
+        </div><!-- /.section-->
+
+        <!-- About -->
+        <div class="section">
+            <div class="container">
+                <!-- Large Screens -->
+                <div class="row hidden-sm hidden-md">
+                    <div class="col-xs-2">
+                        <!-- empty column-->
+                    </div><!-- /.column-->
+                    <div class="col-xs-4">
+                        <br>
+                        <a href="https://vimeo.com/79250988" target="_blank">
+                            <img class="img-responsive" src= "img/about.png" alt="about">
+                        </a>
+                    </div><!-- /.column-->
+                    <div class="col-xs-4">
+                        <h1>SUMMARY</h1>
+                        <p>Hi! I'm Annie Lin aka the girl with bangs.<br> 
+                        NYC-born and Philly-raised. Alumna of the 272nd class of Central High School and Harvard 2017. Proud bearer of a simian line. Software Engineer at Google (Japan!). Artist, scholar, tourist & so much more!
+                        </p>
+                        <h1>I ENJOY:</h1>
+                        <ul class="list">
+                            <li>pineapples</li>
+                            <li>franz kafka</li>
+                            <li>waterman butterfly maps</li>
+                            <li>minimalist posters</li>
+                            <li>sriracha</li>
+                            <li>wes anderson films</li>
+                            <li>rubik's cubes</li>
+                            <li>arabesques</li>
+                            <li>making peace signs</li>
+                            <a class="btn btn-default btn-sm" href="#coffee" data-toggle="modal" style="font-size: 8px;"><i class="fa fa-coffee"></i> coffee chats</a>
+                        </ul>
+                    </div><!-- /.column-->
+                    <div class="col-xs-2">
+                        <!-- empty column-->
+                    </div><!-- /.column-->
+                </div><!-- /.row--> <!-- ./ Large Screens -->
+                <!-- Small Screens -->
+                <div class="row hidden-lg">
+                    <div class="col-xs-2">
+                        <!-- empty column-->
+                    </div><!-- /.column-->
+                    <div class="col-md-8">
+                        <h1>SUMMARY</h1>
+                        <p>Hi! I'm Annie Lin aka the girl with bangs. <br> 
+                        NYC-born and Philly-raised. Alumna of the 272nd class of Central High School and Harvard 2017. Proud bearer of a simian line. Software Engineer at Google (Japan!). Artist, scholar, tourist & so much more!
+                        </p>
+                        <h1>I ENJOY:</h1>
+                        <ul class="list">
+                            <li>pineapples</li>
+                            <li>franz kafka</li>
+                            <li>waterman butterfly maps</li>
+                            <li>minimalist posters</li>
+                            <li>sriracha</li>
+                            <li>wes anderson films</li>
+                            <li>rubik's cubes</li>
+                            <li>arabesques</li>
+                            <li>making peace signs</li>
+                            <a class="btn btn-default btn-sm" href="#coffee" data-toggle="modal" style="font-size: 8px;"><i class="fa fa-coffee"></i> coffee chats</a>
+                        </ul>
+                    </div><!-- /.column-->
+                    <div class="col-xs-2">
+                        <!-- empty column-->
+                    </div><!-- /.column-->
+                </div><!-- /.row--> <!-- ./ Small Screens -->
+            </div><!-- /.container-->
+        </div><!-- /.section-->
+
+        <!-- Resume -->
+        <div class="section">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <!-- empty column-->
+                    </div><!-- /.column-->
+                    <div class="col-md-8">
+                        <br>
+                        <a class="btn btn-default btn-sm no-margin" href="works/AnnieLinResume.pdf" target="_blank">
+                            <i class="fa fa-download"></i> 
+                            Detailed Resume
+                        </a>
+                        <br>
+                        <h1 class="no-margin"> Harvard College '17</h1>
+                        <h2 class="no-margin">Cambridge, MA | A.B. Computer Science</h2>
+                        <ul class="list hidden-sm hidden-md">
+                            <li>Taiwanese Cultural Society (Co-President)</li>
+                            <li>Women in Computer Science (Vice-President)</li>
+                            <li>Digital Literacy Project (Director of Design/Branding)</li>
+                            <li>First Generation Student Union (Public Relations Chair)</li>
+                            <li>Rubik's Cube Club (Secretary)</li>
+                            <li>IMUSE (Design Chair)</li>
+                        </ul>
+                        <h1 class="no-margin">Work Experience </h1>
+                        <ul class="list">
+                            <li>Google</li>
+                            <li>Japan Digital Archives</li>
+                            <li>Cabot Science Library (Harvard University)</li>
+                            <li>Harvard Forest</li>
+                            <li>Showa Women’s University</li>
+                            <li>Ethnic Technologies, LLC</li>
+                            <li>Boat People SOS</li>
+                            <li>White-Williams Scholars</li>
+                            <li>Young Voices Monologue Festival</li>
+                        </ul>
+                        <h1 class="no-margin"> Skills </h1>
+                        <ul class="list">
+                            <li>Objective-C</li>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>C</li>
+                            <li>Javascript</li>
+                            <li>PYTHON</li>
+                            <li>OCAML</li>
+                            <li>HTML/CSS</li>
+                            <li>Fluent Chinese (Mandarin)</li>
+                            <li>Basic German</li>
+                            <li>Intermediate Japanese</li>
+                            <li>Graphic Design (Photoshop/Illustrator)</li>
+                        </ul>
+
+                    </div><!-- /.column-->
+                    <div class="col-xs-2">
+                        <!-- empty column-->
+                    </div><!-- /.column-->
+                </div><!-- /.row-->
+            </div><!-- /.container-->
+        </div><!-- /.section-->
+
+        <!-- Projects -->
+        <div class="section">
+            <div class="container">
+                <!-- Large devices-->
+                <div class="row hidden-md hidden-sm">
+                    <div class="col-xs-6 text-center col-xs-offset-3">
+                        <br>
+                        <a class="btn btn-default btn-sm no-margin" href="http://github.com/theannielin" target="_blank">
+                            <i class="fa fa-github-alt"></i> 
+                            Fork Me on Github
+                        </a><br><br>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://www.stakattak.me/" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/stack.png" alt="StakAttak">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="http://projectimuse.github.io/" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/imuse.png" alt="imuse">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="works/cs51project.zip" download>
+                                    <img class="img-responsive proj" src="img/proj/51.png" alt="cs51">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="works/cs143project.zip" download>
+                                    <img class="img-responsive proj" src="img/proj/143.png" alt="cs143">
+                                </a>
+                            </div><!-- /.column-->
+                        </div><!-- /.row-->
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://www.harvardtcs.org/" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/tcs.png" alt="taiwan">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="https://github.com/theannielin/CVFinalProject" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/magic.png" alt="magic">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="http://harvardforest.fas.harvard.edu/interactive-dioramas" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/forest.png" alt="forest">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="#design" data-toggle="modal" data-backdrop="false">
+                                    <img class="img-responsive proj" src="img/proj/design.png" alt="design">
+                                </a>
+                            </div><!-- /.column-->
+                        </div><!-- /.row-->
+                    </div><!-- /.column-->
+                </div><!-- /.row-->
+                <!-- /.large devices-->
+                <!-- Medium devices-->
+                <div class="row hidden-lg hidden-sm">
+                    <div class="col-xs-7 text-center col-center">
+                        <br>
+                        <a class="btn btn-default btn-sm no-margin" href="http://github.com/theannielin" target="_blank">
+                            <i class="fa fa-github-alt"></i> 
+                            Fork Me on Github
+                        </a><br><br>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://www.stakattak.me/" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/stack.png" alt="StakAttak">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="http://projectimuse.github.io/" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/imuse.png" alt="imuse">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="works/cs51project.zip" download>
+                                    <img class="img-responsive proj" src="img/proj/51.png" alt="cs51">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="works/cs143project.zip" download>
+                                    <img class="img-responsive proj" src="img/proj/143.png" alt="cs143">
+                                </a>
+                            </div><!-- /.column-->
+                        </div><!-- /.row-->
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://www.harvardtcs.org/" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/tcs.png" alt="taiwan">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="https://github.com/theannielin/CVFinalProject" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/magic.png" alt="magic">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="http://harvardforest.fas.harvard.edu/interactive-dioramas" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/forest.png" alt="forest">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="#design" data-toggle="modal" data-backdrop="false">
+                                    <img class="img-responsive proj" src="img/proj/design.png" alt="design">
+                                </a>
+                            </div><!-- /.column-->
+                        </div><!-- /.row-->
+                    </div><!-- /.column-->
+                </div><!-- /.row-->
+                <!-- /.medium devices-->
+                <!-- Small devices-->
+                <div class="row hidden-lg hidden-md">
+                    <div class="col-xs-9 text-center col-center">
+                        <br>
+                        <a class="btn btn-default btn-sm no-margin" href="http://github.com/theannielin" target="_blank">
+                            <i class="fa fa-github-alt"></i> 
+                            Fork Me on Github
+                        </a><br><br>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://www.stakattak.me/" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/stack.png" alt="StakAttak">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="http://projectimuse.github.io/" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/imuse.png" alt="imuse">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="works/cs51project.zip" download>
+                                    <img class="img-responsive proj" src="img/proj/51.png" alt="cs51">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="works/cs143project.zip" download>
+                                    <img class="img-responsive proj" src="img/proj/143.png" alt="cs143">
+                                </a>
+                            </div><!-- /.column-->
+                        </div><!-- /.row-->
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://www.harvardtcs.org/" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/tcs.png" alt="taiwan">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="https://github.com/theannielin/CVFinalProject" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/magic.png" alt="magic">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="http://harvardforest.fas.harvard.edu/interactive-dioramas" target="_blank">
+                                    <img class="img-responsive proj" src="img/proj/forest.png" alt="forest">
+                                </a>
+                            </div><!-- /.column-->
+                            <div class="col-xs-3">
+                                <a href="#design" data-toggle="modal" data-backdrop="false">
+                                    <img class="img-responsive proj" src="img/proj/design.png" alt="design">
+                                </a>
+                            </div><!-- /.column-->
+                        </div><!-- /.row-->
+                    </div><!-- /.column-->
+                </div><!-- /.row-->
+                <!-- /.small devices-->
+            </div><!-- /.container-->
+        </div><!-- /.section-->
+
+
+    </div><!-- /.fullpage-->
+
+    <!-- Footer -->
+    <nav class="navbar navbar-default navbar-fixed-bottom head-foot hidden-xs">
+        <div class="container text-center" style="font-size:10px;">
+            <a href="http://www.linkedin.com/in/theannielin/" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <a href="http://github.com/theannielin" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <a href="http://www.instagram.com/theannielin" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <a href="https://twitter.com/theannielin" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <a href="http://www.youtube.com/channel/UC4xmxjVcO3qGnQ7Y_hZlDnw" target="_blank"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <p style="font-family:caviardreams; color: #666;">{ All content &copy Annie Lin }</p>
+        </div>
+    </nav> <!-- /.footer -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="design" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="modal-body">
+                    <div class="row col-xs-offset-2 hidden-xs">
+                        <div class="col-xs-3">
+                            <h1>Docs</h1>
+                            <!-- Carousel 1-->
+                            <div id="carousel1" class="carousel slide" data-ride="carousel">
+                              <!-- Indicators -->
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel1" data-slide-to="1"></li>
+                                <li data-target="#carousel1" data-slide-to="2"></li>
+                                <li data-target="#carousel1" data-slide-to="3"></li>
+                                <li data-target="#carousel1" data-slide-to="4"></li>
+                              </ol>
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                  <img src="works/art/documents/wics1.png" alt="wics1">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/documents/showa.png" alt="showa">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/documents/fgsu.png" alt="fgsu">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/documents/wecode.png" alt="wecode">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/documents/wics2.png" alt="wics2">
+                                </div>
+                              </div>
+                              <!-- Controls -->
+                              <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div><!-- /.carousel1-->
+                        </div><!-- /.column-->
+                        <div class="col-xs-3">
+                            <h1>Logos</h1>
+                            <!-- Carousel 2-->
+                            <div id="carousel2" class="carousel slide" data-ride="carousel">
+                              <!-- Indicators -->
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel2" data-slide-to="1"></li>
+                                <li data-target="#carousel2" data-slide-to="2"></li>
+                                <li data-target="#carousel2" data-slide-to="3"></li>
+                                <li data-target="#carousel2" data-slide-to="4"></li>
+                                <li data-target="#carousel2" data-slide-to="5"></li>
+                                <li data-target="#carousel2" data-slide-to="6"></li>
+                                <li data-target="#carousel2" data-slide-to="7"></li>
+                                <li data-target="#carousel2" data-slide-to="8"></li>
+                              </ol>
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                  <img src="works/art/logo/wics.png" alt="wics">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/logo/fgsu.png" alt="fgsu">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/logo/paz.png" alt="wics">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/logo/tcs1.png" alt="tcs1">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/logo/tcs2.png" alt="tcs2">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/logo/seas1.png" alt="seas1">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/logo/seas2.png" alt="seas2">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/logo/seas3.png" alt="seas3">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/logo/awh.png" alt="awh">
+                                </div>
+                              </div>
+                              <!-- Controls -->
+                              <a class="left carousel-control" href="#carousel2" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel2" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div><!-- /.carousel2 -->
+                        </div><!-- /.column-->
+                        <div class="col-xs-3">
+                            <h1>Sculpture</h1>
+                            <!-- Carousel 3-->
+                            <div id="carousel3" class="carousel slide" data-ride="carousel">
+                              <!-- Indicators -->
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel3" data-slide-to="1"></li>
+                                <li data-target="#carousel3" data-slide-to="2"></li>
+                                <li data-target="#carousel3" data-slide-to="3"></li>
+                                <li data-target="#carousel3" data-slide-to="4"></li>
+                                <li data-target="#carousel3" data-slide-to="5"></li>
+                                <li data-target="#carousel3" data-slide-to="6"></li>
+                                <li data-target="#carousel3" data-slide-to="7"></li>
+                                <li data-target="#carousel3" data-slide-to="8"></li>
+                              </ol>
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                  <img src="works/art/sculpture/1.png" alt="sculpture">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/sculpture/2.png" alt="sculpture">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/sculpture/3.png" alt="sculpture">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/sculpture/4.png" alt="sculpture">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/sculpture/5.png" alt="sculpture">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/sculpture/6.png" alt="sculpture">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/sculpture/7.png" alt="sculpture">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/sculpture/8.png" alt="sculpture">
+                                </div>
+                                <div class="item">
+                                  <img src="works/art/sculpture/9.png" alt="sculpture">
+                                </div>
+                              </div>
+                              <!-- Controls -->
+                              <a class="left carousel-control" href="#carousel3" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel3" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div><!-- /.carousel3-->
+                        </div><!-- /.column-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Coffee Modal  -->
+    <div class="portfolio-modal modal fade" id="coffee" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal hidden-xs" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="modal-body">
+                            <h1 style="font-size:13px;" class="no-margin">Hi! I'm Annie!<br>
+                            I'm always excited to meet (or re-meet) people.<br>
+                            I would love to have a chat over coffee<br>
+                            (or any other beverage of your choice).<br>
+                            Let's grab a drink!</h1>
+                            <div style="font-size:20px;">
+                                <a href="mailto:hello@anniel.in?subject=Coffee%20Scheduling&body=Note-%20Please%20fill%20out:%0A%0AName:%20%0ADates/Times:%20%0ALocation:%20%0APhone:%20%0A"> 
+                                    <span class="fa-stack fa-lg">
+                                      <i class="fa fa-circle fa-stack-2x"></i>
+                                      <i class="fa fa-coffee fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <h1 style="font-size:13px;" class="no-margin">I will e-mail back you to<br>either confirm or reschedule!</h1>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close Window</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ============= Outdated Browser ============= -->
+    <div id="outdated"></div>
+
+    <!-- javascript includes -->
+    <script src="../outdatedbrowser/outdatedbrowser.min.js"></script>
+
+    <!-- plugin call -->
+    <script>
+        //event listener form DOM ready
+        function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function() {
+                    if (oldonload) {
+                        oldonload();
+                    }
+                    func();
+                }
+            }
+        }
+        //call function after DOM ready
+        addLoadEvent(function(){
+            outdatedBrowser({
+                bgColor: '#16a085',
+                color: '#ffffff',
+                lowerThan: 'transform',
+                languagePath: '../outdatedbrowser/lang/en.html'
+            })
+        });
+    </script>
+</body>
+
+</html>
