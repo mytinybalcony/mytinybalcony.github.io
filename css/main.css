@@ -1,67 +1,30 @@
-/* Main CSS sheet for www.anniel.in #16a085 */
+/* Main CSS sheet for www.mytinybalcony.com */
 
 /* Fonts */
 @font-face {
-	font-family: passiontea;
-	src: url(/fonts/PassionTea.ttf);
+	font-family: perfograma;
+	src: url(/fonts/Perfograma.otf);
 }
 
-@font-face {
-	font-family: caviardreams;
-	src: url(/fonts/CaviarDreams.ttf);
-}
-
-/* Center column */
-.col-center{
-    float: none;
-    margin: 0 auto;
-}
-
-/* Text Attributes */
-.no-margin {
-	margin: 0px 0px 5px 0px;
-}
-
+/* Text Styles */
 h1 {
-	font-family: caviardreams;
+	font-family: perfograma;
 	font-weight: 900;
 	color: #aaa; 
 	font-size: 20px;
 }
 
 h2 {
-	font-family: caviardreams;
+	font-family: perfograma;
 	font-weight: 500;
 	color: #ccc; 
 	font-size: 15px;
 }
 
 p {  
-	font-family: caviardreams;
+	font-family: perfograma;
 	color: #555; 
 	font-size: 15px;
-}
-
-/* Makes the default Bootstrap navbar white */
-.head-foot {
-	background-color: #fff;
-	border: none;
-}
-
-/* Scissor line for the header */
-hr { 
-  border-top: 1.5px dashed #666; 
-} 
-
-hr:after { 
-  content: '\002702'; 
-  display: inline-block; 
-  position: relative; 
-  top: -13px; 
-  padding: 0 3px; 
-  background: #fff; 
-  color: #666; 
-  font-size: 18px; 
 }
 
 /* Links */
@@ -69,112 +32,3 @@ a:link {text-decoration:none; color: #666;}
 a:visited {text-decoration:none; color: #666;}
 a:hover {text-decoration:none; color: #16a085;}
 a:active {text-decoration:none; color: #666;}
-
-/* The cog in the middle of header */
-#cog:link {text-decoration:none; color: #16a085;}
-#cog:visited {text-decoration:none; color: #16a085;}
-#cog:hover {text-decoration:none; color: #16a085;}
-#cog:active {text-decoration:none; color: #16a085}
-
-
-/* Images for projects */
-.proj {
-    opacity: .5;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -webkit-filter: grayscale(100%);
-}
-
-.proj:hover {
-    opacity: .7;
-    -webkit-filter: grayscale(0%);
-}
-
-/* Lists */
-.list li {
-display: inline-block;
-font-family: caviardreams;
-background: #aaa;
-color: #fff;
-font-size: 12px; 
-padding: 2px 2px;
-margin: 0 0px 4px 0;
-}
-
-.list {
-margin: 0px 0px 0px 0px;
-padding: 0px 0px 0px 0px;
-}
-
-
-/* Buttons */
-.btn {
-    text-transform: uppercase;
-    font-family: caviardreams;
-    font-weight: 900;
-}
-
-.btn-default {
-    border: 1px solid #16a085;
-    color: #16a085;
-    background-color: transparent;
-}
-
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid #16a085;
-    outline: 0;
-    color: #fff;
-    background-color: #16a085;
-}
-
-/* Modals */
-.portfolio-modal .modal-content {
-    padding: 60px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.portfolio-modal .modal-content img {
-    margin: 0 auto;
-}
-
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-    opacity: .3;
-}
-
-.portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #222;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #222;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
